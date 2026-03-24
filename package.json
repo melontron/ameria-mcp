@@ -1,0 +1,21 @@
+{
+  "name": "ameria-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ameria Bank MCP server for Claude Desktop",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "inspect": "npx @modelcontextprotocol/inspector node server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0"
+  }
+}
